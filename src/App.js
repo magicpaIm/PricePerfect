@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import About  from "./components/About";
+import Benifit from "./components/Benifit";
 const App = () => {
 
   Aos.init()
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
+      <Benifit />
     </div>
   );
 }
