@@ -7,20 +7,15 @@ import 'aos/dist/aos.css'
 //import components
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import About  from "./components/About";
 const App = () => {
 
-  Aos.init(
-    {
-      offset: 200,
-      duration: 600,
-      easing: 'ease-in-sine',
-      delay: 100,
-    }
-  )
+  Aos.init()
   return (
     <div className="flex flex-col max-w-xl mx-auto w-full items-center overflow-hidden">
       <Navbar />
       <Hero />
+      <About />
     </div>
   );
 }
