@@ -18,7 +18,7 @@ const App = () => {
     }
   )
   return (
-    <div className="flex flex-col max-w-xl w-full items-center overflow-hidden">
+    <div className="flex flex-col max-w-xl mx-auto w-full items-center overflow-hidden">
       <Navbar />
       <Hero />
     </div>
