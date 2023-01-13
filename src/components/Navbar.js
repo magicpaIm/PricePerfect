@@ -5,7 +5,7 @@ import Button from "./Button";
 const Navbar = ( ) => {
     return (
         <div className="flex flex-row items-center justify-between w-full gap-10 p-5" data-aos="fade-zoom-in" data-aos-delay='100'>
-            <img src={logo} className="bg-auto w-fit h-[30px] ml-10"></img>
+            <img src={logo} className="bg-auto w-fit h-[30px] ml-10" alt='logo'></img>
             <p className="navbar-menu">How it works</p>
             <p className="navbar-menu">Features</p>
             <p className="navbar-menu">Pricing</p>

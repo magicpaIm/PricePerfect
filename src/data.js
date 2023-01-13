@@ -5,6 +5,8 @@ import groupImage2 from '../src/assets/img/group2.png'
 import HeroImage from '../src/assets/img/hero.png'
 import HeroImage1 from '../src/assets/img/hero1.png'
 import HeroImage2 from '../src/assets/img/hero2.png'
+import BenifitBgImg from '../src/assets/img/benifitbg.png'
+import BenifitAniImg from '../src/assets/img/group3.png'
 
 export const heroData = {
     order: '1# BEST MARKETING MANAGEMENT APP',
@@ -20,12 +22,28 @@ export const heroData = {
 export const aboutData = {
     order: 'BENEFIT WILL YOU GET',
     title: 'Having everything you need in one app',
-    subtitle: 'Lorem ipsum dolor sit emet consectetur. Ligula lorem mi eget fellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orcl aliquam id ipsum',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
     arrowtext: 'Learn More',
     image: HeroImage1,
     image1: groupImage1,
     image2: groupImage2
 }
+
+export const benifitData = {
+    order: 'BENEFIT WILL YOU GET',
+    title: 'Realtime update about your business',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
+    arrowtext: 'Learn More',
+    bgimage: BenifitBgImg,
+    aniimage: BenifitAniImg,
+}
+
+export const TrustedmonialData = {
+    order: 'TRUSTED BY BIG BUSINESS TEAMS',
+    title: 'Over 900+ business team rely on Manageko',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
+    arrowtext: 'Learn More',
+    }
 
 export const cardData = [
     {
@@ -40,4 +58,43 @@ export const cardData = [
         title:'40+',
         description: 'Big Companies'
     }
+]
+
+
+export const benifitcardData = [
+    {
+        title:'90%',
+        description: 'Accurate data based on our system'
+    },
+    {
+        title:'$105.k',
+        description: 'save on expenses and maintenance'
+    },
+]
+
+export const trustedmonialSliderData = [
+    {
+        // image: avatar1,
+        name: 'Paypal'
+    },
+    {
+        // image: avatar1,
+        name: 'WISE'
+    },
+    {
+        // image: avatar1,
+        name: 'Payoneer'
+    },
+    {
+        // image: avatar1,
+        name: 'stripe'
+    },
+    {
+        // image: avatar1,
+        name: 'Alipay'
+    },
+    {
+        // image: avatar1,
+        name: 'G Pay'
+    },
 ]
