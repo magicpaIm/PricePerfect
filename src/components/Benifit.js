@@ -6,11 +6,11 @@ import { benifitData, benifitcardData } from '../data'
 const Benifit = () => {
     const { order, title, subtitle, arrowtext, bgimage, aniimage } = benifitData
     return (
-        <div className='flex flex-row  px-16 pt-28 items-center'>
-           
-            <div className='container1 bg-gray-200  w-1/2 gap-6 h-[700px]' >
-                <div className='benifitbg mt-16 mr-auto h-full w-[90%] bg-center bg-cover rounded-tr-xl' data-aos="fade-up" data-aos-delay='100'>
-                    
+        <div className='flex flex-row  px-16 pt-28 pb-20 items-center'>
+
+            <div className='container1 bg-gray-200  w-1/2 gap-6' data-aos="zoom-in"  data-aos-delay='50' >
+                <div className='benifitbg mt-16 mr-auto h-[700px] w-[90%] bg-center bg-cover rounded-tr-xl' data-aos="fade-up" data-aos-delay='100'>
+
                     <img src={aniimage} className='ml-5 pt-20' data-aos="zoom-in-right" data-aos-delay='150' />
                 </div>
             </div>

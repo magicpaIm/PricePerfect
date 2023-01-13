@@ -38,6 +38,13 @@ export const benifitData = {
     aniimage: BenifitAniImg,
 }
 
+export const TrustedmonialData = {
+    order: 'TRUSTED BY BIG BUSINESS TEAMS',
+    title: 'Over 900+ business team rely on Manageko',
+    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
+    arrowtext: 'Learn More',
+    }
+
 export const cardData = [
     {
         title:'4.2m+',
@@ -62,5 +69,32 @@ export const benifitcardData = [
     {
         title:'$105.k',
         description: 'save on expenses and maintenance'
+    },
+]
+
+export const trustedmonialSliderData = [
+    {
+        // image: avatar1,
+        name: 'Paypal'
+    },
+    {
+        // image: avatar1,
+        name: 'WISE'
+    },
+    {
+        // image: avatar1,
+        name: 'Payoneer'
+    },
+    {
+        // image: avatar1,
+        name: 'stripe'
+    },
+    {
+        // image: avatar1,
+        name: 'Alipay'
+    },
+    {
+        // image: avatar1,
+        name: 'G Pay'
     },
 ]

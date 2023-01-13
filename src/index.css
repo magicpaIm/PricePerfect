@@ -7,22 +7,94 @@
   .navbar-menu {
     @apply text-gray-500 font-medium;
   }
+
   .container1 {
     @apply bg-gray-100 rounded-xl;
   }
+
   .heroBg {
     background-image: url(assets/img/hero.png)
   }
+
   .benifitbg {
     background-image: url(assets/img/benifitbg.png)
   }
+
   .title {
     @apply w-full text-6xl font-bold text-gray-800 pb-2
   }
+
   .subtitle {
     @apply text-gray-500 font-medium max-w-sm py-5
   }
+
   .description {
-    @apply w-full text-blue-500 text-lg pb-5
+    @apply w-full text-blue-500 text-lg pb-5 font-medium
+  }
+
+  .marquee-wrapper {
+    text-align: center;
+  }
+
+  .marquee-wrapper .marquee-container {
+    overflow: hidden;
+  }
+
+  .marquee-inner span {
+    float: left;
+    width: 50%;
+  }
+
+  .marquee-wrapper .marquee-block {
+    @apply flex items-center justify-center text-center;
+    --total-marquee-items: 6;
+    height: 160px;
+    width: calc(270px * (var(--total-marquee-items)));
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .marquee-inner {
+    display: block;
+    width: 200%;
+    position: absolute;
+    align-items: center;
+  }
+
+  .marquee-inner.to-left {
+    animation: marqueeLeft 25s linear infinite;
+  }
+
+  .marquee-inner.to-right {
+    animation: marqueeRight 25s linear infinite;
+  }
+
+  .marquee-item {
+    @apply inline-flex bg-gray-800 rounded-lg items-center justify-center text-center;
+    width: 250px;
+    height: 130px;
+    margin: 0 10px;
+    transition: all .2s ease-out;
+  }
+
+  @keyframes marqueeLeft {
+    0% {
+      left: 0;
+    }
+
+    100% {
+      left: -100%;
+    }
+  }
+
+  @keyframes marqueeRight {
+    0% {
+      left: -100%;
+    }
+
+    100% {
+      left: 0;
+    }
   }
 }
