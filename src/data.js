@@ -57,6 +57,12 @@ export const avatarData = {
     role: 'Founder of Chainshaw corp',
 }
 
+export const featuresData = {
+    order: "OUR BEST PLANS FOR YOU",
+    title: "Best plan for your business",
+    subtitle: 'Lorem ipsum dolor sit amet consecteur. Fermentum hendrerit dictum pellentesque bibendum. Arcu at facilisi facilisis nisi diam. Nisl euismod aliquet mi id sed vel.',
+}
+
 export const cardData = [
     {
         title: '4.2m+',
@@ -108,5 +114,38 @@ export const trustedmonialSliderData = [
     {
         // image: avatar1,
         name: 'G Pay'
+    },
+]
+
+export const featurecardsData = [
+    {
+        title: 'Basic Plan',
+        description: [
+            "Basic reporting & Analytics",
+            "Basic Support Chart",
+            "50GB Cloud memory"
+        ],
+        price: "$65",
+        priceplan:"/month"
+    },
+    {
+        title: 'Standard Plan',
+        description: [
+            "Standard reporting & Analytics",
+            "Priority Support Chart",
+            "250GB Cloud memory"
+        ],
+        price: "$114",
+        priceplan:"/month"
+    },
+    {
+        title: 'Business Plan',
+        description: [
+            "Advance reporting & Analytics",
+            "Priority Support Chart",
+            "500GB Cloud memory"
+        ],
+        price: "$172",
+        priceplan:"/month"
     },
 ]
