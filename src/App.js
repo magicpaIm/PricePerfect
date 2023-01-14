@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import About  from "./components/About";
 import Benifit from "./components/Benifit";
 import Trustedmonial from "./components/Trustedmonial";
+import Cta from "./components/Cta";
+
 const App = () => {
 
   Aos.init()
@@ -20,6 +22,7 @@ const App = () => {
       <About />
       <Benifit />
       <Trustedmonial />
+      <Cta />
     </div>
   );
 }

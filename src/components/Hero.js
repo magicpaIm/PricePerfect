@@ -10,7 +10,6 @@ const Hero = () => {
     return (
         <div className="px-5 w-full">
             <div className="container1" data-aos="fade-up" data-aos-delay='200'>
-
                 <div className='w-full text-center justify-center items-center '>
                     <p className='description pt-20' >{order}</p>
                     <h1 className='title' data-aos="fade-up" data-aos-delay='300'>{titleUp}</h1>
@@ -25,7 +24,6 @@ const Hero = () => {
                     <div className="flex flex-col heroBg mx-auto h-[500px] w-[1100px] bg-center bg-no-repeat bg-cover" data-aos="fade-up" data-aos-delay='800'>
                         <img src={image1} className='h-[170px] w-[380px]' data-aos="zoom-in-left" data-aos-delay='700'/>
                         <img src={image2} className='h-[400px] w-[500px] ml-auto pl-10 ' data-aos="zoom-in-right" data-aos-delay='900'/>
-
                     </div>
                 </div>
             </div>

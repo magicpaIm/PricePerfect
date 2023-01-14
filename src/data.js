@@ -7,6 +7,7 @@ import HeroImage1 from '../src/assets/img/hero1.png'
 import HeroImage2 from '../src/assets/img/hero2.png'
 import BenifitBgImg from '../src/assets/img/benifitbg.png'
 import BenifitAniImg from '../src/assets/img/group3.png'
+import avatarImage from '../src/assets/img/avatar.png'
 
 export const heroData = {
     order: '1# BEST MARKETING MANAGEMENT APP',
@@ -43,19 +44,30 @@ export const TrustedmonialData = {
     title: 'Over 900+ business team rely on Manageko',
     subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
     arrowtext: 'Learn More',
-    }
+}
+
+export const ctaData = {
+    titleup: "the sales management dashboard platform which I think is the best I've ever tried. the information displayed is very ",
+    titledown: "valuable with a pleasant user interface to look at",
+}
+
+export const avatarData = {
+    image: avatarImage,
+    name: 'DenjibinPochita',
+    role: 'Founder of Chainshaw corp',
+}
 
 export const cardData = [
     {
-        title:'4.2m+',
+        title: '4.2m+',
         description: 'Active Business'
     },
     {
-        title:'5.1m+',
+        title: '5.1m+',
         description: 'Downloaded'
     },
     {
-        title:'40+',
+        title: '40+',
         description: 'Big Companies'
     }
 ]
@@ -63,18 +75,18 @@ export const cardData = [
 
 export const benifitcardData = [
     {
-        title:'90%',
+        title: '90%',
         description: 'Accurate data based on our system'
     },
     {
-        title:'$105.k',
+        title: '$105.k',
         description: 'save on expenses and maintenance'
     },
 ]
 
 export const trustedmonialSliderData = [
     {
-        // image: avatar1,
+        // image: avatar0,
         name: 'Paypal'
     },
     {

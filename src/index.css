@@ -31,7 +31,9 @@
   .description {
     @apply w-full text-blue-500 text-lg pb-5 font-medium
   }
-
+  .circle-arrow {
+    @apply h-[50px] w-[40px] cursor-pointer
+  }
   .marquee-wrapper {
     text-align: center;
   }
