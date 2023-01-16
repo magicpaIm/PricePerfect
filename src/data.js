@@ -8,6 +8,7 @@ import HeroImage2 from '../src/assets/img/hero2.png'
 import BenifitBgImg from '../src/assets/img/benifitbg.png'
 import BenifitAniImg from '../src/assets/img/group3.png'
 import avatarImage from '../src/assets/img/avatar.png'
+import FooterImage from '../src/assets/img/hero.png'
 
 export const heroData = {
     order: '1# BEST MARKETING MANAGEMENT APP',
@@ -61,6 +62,20 @@ export const featuresData = {
     order: "OUR BEST PLANS FOR YOU",
     title: "Best plan for your business",
     subtitle: 'Lorem ipsum dolor sit amet consecteur. Fermentum hendrerit dictum pellentesque bibendum. Arcu at facilisi facilisis nisi diam. Nisl euismod aliquet mi id sed vel.',
+}
+
+export const footerData = {
+    title: "Let's join with millions of sellers in the world",
+    subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
+    btnText: "Try Manageko for 14 days",
+    image: FooterImage
+}
+
+export const copyrightData = {
+    text: "2022 manageko Inc. Copyright and All rights reserved.",
+    subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
+    btnText: "Try Manageko for 14 days",
+    image: FooterImage
 }
 
 export const cardData = [

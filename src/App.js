@@ -12,6 +12,7 @@ import Benifit from "./components/Benifit";
 import Trustedmonial from "./components/Trustedmonial";
 import Cta from "./components/Cta";
 import Features from "./components/Features";
+import Footer from "./components/Footer";
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
       <Trustedmonial />
       <Cta />
       <Features />
+      <Footer />
     </div>
   );
 }

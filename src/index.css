@@ -34,6 +34,15 @@
   .circle-arrow {
     @apply h-[50px] w-[40px] cursor-pointer
   }
+
+  .circle-icon {
+    @apply border-2 border-gray-800 w-[40px] h-[40px] rounded-full items-center justify-center pt-1;
+  }
+
+  .circle-icon .footer-icon {
+    @apply text-white text-2xl m-auto;
+  }
+
   .marquee-wrapper {
     text-align: center;
   }
