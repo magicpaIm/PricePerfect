@@ -15,7 +15,7 @@ const TrustedmonialSlider = () => {
                                     return (
                                         <div key={index} className=' marquee-item'>
                                             {/* <img src={image} alt=''/> */}
-                                            <p className='text-4xl text-gray-500 font-bold '>{name}</p>
+                                            <p className='testmonial-p '>{name}</p>
                                         </div>
                                     )
                                 })
@@ -28,7 +28,7 @@ const TrustedmonialSlider = () => {
                                     return (
                                         <div key={index} className=' marquee-item'>
                                             {/* <img src={image} alt=''/> */}
-                                            <p className='text-4xl text-gray-500 font-bold '>{name}</p>
+                                            <p className='testmonial-p '>{name}</p>
                                         </div>
                                     )
                                 })
@@ -45,7 +45,7 @@ const TrustedmonialSlider = () => {
                                     return (
                                         <div key={index} className=' marquee-item'>
                                             {/* <img src={image} alt=''/> */}
-                                            <p className='text-4xl text-gray-500 font-bold '>{name}</p>
+                                            <p className='testmonial-p '>{name}</p>
                                         </div>
                                     )
                                 })
@@ -58,7 +58,7 @@ const TrustedmonialSlider = () => {
                                     return (
                                         <div key={index} className=' marquee-item'>
                                             {/* <img src={image} alt=''/> */}
-                                            <p className='text-4xl text-gray-500 font-bold '>{name}</p>
+                                            <p className='testmonial-p '>{name}</p>
                                         </div>
                                     )
                                 })
