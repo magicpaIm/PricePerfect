@@ -187,3 +187,22 @@ export const navigationData = [
         href: "#"
     },
 ]
+
+export const footernavData = [
+    {
+        name: 'Features',
+        href: "#"
+    },
+    {
+        name: 'About Us',
+        href: "#"
+    },
+    {
+        name: 'Testimonials',
+        href: "#"
+    },
+    {
+        name: 'Download',
+        href: "#"
+    },
+]
