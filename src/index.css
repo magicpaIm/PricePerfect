@@ -8,6 +8,10 @@
     @apply text-gray-500 font-medium;
   }
 
+  .testmonial-p {
+    @apply text-2xl lg:text-4xl text-gray-500 font-bold;
+  }
+
   .container1 {
     @apply bg-gray-100 rounded-xl;
   }
@@ -31,12 +35,15 @@
   .description {
     @apply w-full text-blue-500 text-base lg:text-lg pb-2 lg:pb-5 font-medium
   }
+
   .circle-arrow {
     @apply h-[50px] w-[40px] cursor-pointer
   }
+
   .circle-fill {
     @apply w-[20px] h-[20px] rounded-full
   }
+
   .circle-icon {
     @apply border-2 border-gray-800 w-[40px] h-[40px] rounded-full items-center justify-center pt-1;
   }
@@ -48,8 +55,8 @@
   .about-container {
     @apply flex flex-col lg:flex-row px-5 lg:px-16 pt-14 lg:pt-28 items-center;
   }
-  
-  .about-container .about-img  {
+
+  .about-container .about-img {
     @apply bg-gray-200 w-full lg:w-1/2;
   }
 
@@ -70,25 +77,17 @@
   }
 
   .marquee-inner span {
-    float: left;
-    width: 50%;
+    @apply float-left w-1/2
   }
 
   .marquee-wrapper .marquee-block {
-    @apply flex items-center justify-center text-center;
-    --total-marquee-items: 6;
-    height: 160px;
-    width: calc(270px * (var(--total-marquee-items)));
+    @apply flex items-center justify-center text-center relative h-[120px] lg:h-[160px] lg:w-[calc(270px_*_6)] w-[calc(220px_*_6)];;
     overflow: hidden;
     box-sizing: border-box;
-    position: relative;
   }
 
   .marquee-inner {
-    display: block;
-    width: 200%;
-    position: absolute;
-    align-items: center;
+    @apply block w-[200%] absolute items-center;
   }
 
   .marquee-inner.to-left {
@@ -100,9 +99,7 @@
   }
 
   .marquee-item {
-    @apply inline-flex bg-gray-800 rounded-lg items-center justify-center text-center;
-    width: 250px;
-    height: 130px;
+    @apply inline-flex bg-gray-800 rounded-lg items-center justify-center text-center w-[200px] h-[100px] lg:w-[250px] lg:h-[130px];
     margin: 0 10px;
     transition: all .2s ease-out;
   }
