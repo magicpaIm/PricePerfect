@@ -7,30 +7,10 @@ import Button from "./Button";
 
 import logo from '../assets/Logo1.png'
 
-function useOutsideAlerter(ref, setNavMobile) {
-    useEffect(() => {
-
-        function handleClickOutside(event) {
-            if (ref.current && !ref.current.contains(event.target)) {
-                setNavMobile(true);
-            }
-        }
-
-        // Bind the event listener
-        document.addEventListener("mousedown", handleClickOutside);
-        return () => {
-            // Unbind the event listener on clean up
-            document.removeEventListener("mousedown", handleClickOutside);
-        };
-    }, [ref]);
-}
-
-
-
 const Header = () => {
     const [navMobile, setNavMobile] = useState(false)
     return (
-        <header className='flex flex-row items-center justify-between w-full gap-10 p-5 z-10 relative' data-aos="fade-zoom-in" data-aos-delay='100' data-aos-duration='1200'>
+        <header className='flex flex-row items-center justify-between w-full gap-10 p-5 z-10 relative' data-aos="fade-up" data-aos-delay='100' data-aos-duration='1200'>
             <a href="#" className='hidden lg:block'>
                 <img src={logo} className="bg-auto w-fit h-[30px] ml-10" alt='logo'></img>
             </a>

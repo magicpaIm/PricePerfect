@@ -21,15 +21,15 @@
   }
 
   .title {
-    @apply w-full text-6xl font-bold text-gray-800 pb-2
+    @apply w-full text-3xl lg:text-6xl font-bold text-gray-800 pb-2
   }
 
   .subtitle {
-    @apply text-gray-500 font-medium max-w-sm py-5
+    @apply text-gray-500 text-sm lg:text-lg font-medium max-w-sm py-5
   }
 
   .description {
-    @apply w-full text-blue-500 text-lg pb-5 font-medium
+    @apply w-full text-blue-500 text-base lg:text-lg pb-5 font-medium
   }
   .circle-arrow {
     @apply h-[50px] w-[40px] cursor-pointer
