@@ -141,7 +141,7 @@ export const featurecardsData = [
             "50GB Cloud memory"
         ],
         price: "$65",
-        priceplan:"/month"
+        priceplan: "/month"
     },
     {
         title: 'Standard Plan',
@@ -151,7 +151,7 @@ export const featurecardsData = [
             "250GB Cloud memory"
         ],
         price: "$114",
-        priceplan:"/month"
+        priceplan: "/month"
     },
     {
         title: 'Business Plan',
@@ -161,6 +161,29 @@ export const featurecardsData = [
             "500GB Cloud memory"
         ],
         price: "$172",
-        priceplan:"/month"
+        priceplan: "/month"
+    },
+]
+
+export const navigationData = [
+    {
+        name: 'How it works',
+        href: "#"
+    },
+    {
+        name: 'Features',
+        href: "#"
+    },
+    {
+        name: 'Pricing',
+        href: "#"
+    },
+    {
+        name: 'About Us',
+        href: "#"
+    },
+    {
+        name: 'Blog',
+        href: "#"
     },
 ]
