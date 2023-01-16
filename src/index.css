@@ -45,6 +45,22 @@
     @apply text-white text-2xl m-auto;
   }
 
+  .about-container {
+    @apply flex flex-col lg:flex-row px-5 lg:px-16 pt-14 lg:pt-28 items-center;
+  }
+  
+  .about-container .about-img  {
+    @apply bg-gray-200 w-full lg:w-1/2;
+  }
+
+  .about-container .about-div {
+    @apply flex flex-col items-center w-full lg:w-1/2
+  }
+
+  .about-container .about-map {
+    @apply flex flex-row gap-4 lg:gap-24 pt-5 lg:pt-16
+  }
+
   .marquee-wrapper {
     text-align: center;
   }
