@@ -11,7 +11,7 @@ import avatarImage from '../src/assets/img/avatar.png'
 import FooterImage from '../src/assets/img/hero.png'
 
 export const heroData = {
-    order: '1# BEST MARKETING MANAGEMENT APP',
+    order: "Introducing shopify's first multi-level price testing app",
     titleUp: 'Boosts your marketing and sales ',
     titleDown: 'with Manageko.',
     subtitle: 'Dashboard platform that was created with the aim of making it easier for business people to manage sales data, sales statistics and sales reports',
