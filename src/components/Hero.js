@@ -16,10 +16,9 @@ const Hero = () => {
                     <h1 className='title' data-aos="fade-up" data-aos-delay='500' data-aos-duration='1000'>{titleDown}</h1>
                     <p className='subtitle mx-auto' data-aos="fade-up" data-aos-delay='600'>{subtitle}</p>
                     <div className='flex flex-row w-full justify-center items-center pb-10'>
-                        <div className='flex flex-row items-center bg-white rounded-xl px-2 py-2 gap-5 lg:gap-48' data-aos="fade-up" data-aos-delay='700'>
-                            <p className='text-gray-300 ml-4'>input your email address</p>
                             <Button btnText={btnText} />
-                        </div>
+                        {/* <div className='flex flex-row items-center bg-white rounded-xl px-2 py-2 gap-5 lg:gap-48' data-aos="fade-up" data-aos-delay='700'>
+                        </div> */}
                     </div>
                     <div className="flex flex-col heroBg mx-auto w-[300px] h-[200px] lg:h-[500px] lg:w-[1100px] bg-center bg-no-repeat bg-cover" data-aos="fade-up" data-aos-delay='900'>
                         <img src={image1} className='mt-8 lg:mt-1 w-[100px] h-[50px] lg:h-[170px] lg:w-[380px]' data-aos="zoom-in-left" data-aos-delay='800'/>

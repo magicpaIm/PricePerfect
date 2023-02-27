@@ -12,10 +12,10 @@ import FooterImage from '../src/assets/img/hero.png'
 
 export const heroData = {
     order: "Introducing shopify's first multi-level price testing app",
-    titleUp: 'Boosts your marketing and sales ',
-    titleDown: 'with Manageko.',
-    subtitle: 'Dashboard platform that was created with the aim of making it easier for business people to manage sales data, sales statistics and sales reports',
-    btnText: 'Get Started',
+    titleUp: 'Test 10+ price points per product ',
+    titleDown: 'with PricePerfect',
+    subtitle: 'Tired of only being able to A/B test your product prices? Test up to 10 price points and once and efficiently find your optimal price and unlock your maximum revenue with PricePerfect.',
+    btnText: 'Test for free',
     image: HeroImage,
     image1: HeroImage1,
     image2: HeroImage2
