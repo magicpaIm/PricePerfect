@@ -7,7 +7,6 @@ import HeroImage1 from '../src/assets/img/hero1.png'
 import HeroImage2 from '../src/assets/img/hero2.png'
 import BenifitBgImg from '../src/assets/img/benifitbg.png'
 import BenifitAniImg from '../src/assets/img/group3.png'
-import avatarImage from '../src/assets/img/avatar.png'
 import FooterImage from '../src/assets/img/hero.png'
 import avatarImage1 from '../src/assets/img/Ethan-Davis.png'
 import avatarImage2 from '../src/assets/img/Olivia-Wilson.png'
@@ -26,8 +25,8 @@ export const heroData = {
 
 export const aboutData = {
     order: 'BENEFIT WILL YOU GET',
-    title: 'Having everything you need in one app',
-    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
+    title: 'Price is the easiest way to increase your AOV',
+    subtitle: 'The average PricePerfect user increases their revenue by 30% with PricePerfect. For years finding the optimal price has been a long and inefficient process, with only A/B testing options available. With PricePerfect you can test up to 10 price points simultaneously and identify your optimal price point in a fraction of the time.',
     arrowtext: 'Learn More',
     image: HeroImage1,
     image1: groupImage1,
