@@ -14,9 +14,9 @@ const Header = () => {
             <a href="#" className='hidden lg:block'>
                 <img src={logo} className="bg-auto w-fit h-[30px] ml-10" alt='logo'></img>
             </a>
-            <div className='hidden lg:flex'>
+            {/* <div className='hidden lg:flex'>
                 <Navbar />
-            </div>
+            </div> */}
             {navMobile &&
                 <div  className="bg-gray-300 absolute top-20 left-0 h-54 w-full" data-aos="fade-zoom-in" data-aos-delay='100' data-aos-duration='1200'>
                     <NavbarMobile />
@@ -27,6 +27,7 @@ const Header = () => {
                 <FaBars />
             </div>
             <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
+            <a className="text-blue-600 font-medium cursor-pointer" href='#'>Contact Us</a>
                 <Button btnText="Test for free" />
             </div>
         </header>
