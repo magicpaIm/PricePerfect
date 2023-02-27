@@ -9,13 +9,16 @@ import BenifitBgImg from '../src/assets/img/benifitbg.png'
 import BenifitAniImg from '../src/assets/img/group3.png'
 import avatarImage from '../src/assets/img/avatar.png'
 import FooterImage from '../src/assets/img/hero.png'
+import avatarImage1 from '../src/assets/img/Ethan-Davis.png'
+import avatarImage2 from '../src/assets/img/Olivia-Wilson.png'
+import avatarImage3 from '../src/assets/img/Thomas-Brown.png'
 
 export const heroData = {
-    order: '1# BEST MARKETING MANAGEMENT APP',
-    titleUp: 'Boosts your marketing and sales ',
-    titleDown: 'with Manageko.',
-    subtitle: 'Dashboard platform that was created with the aim of making it easier for business people to manage sales data, sales statistics and sales reports',
-    btnText: 'Get Started',
+    order: "Introducing shopify's first multi-level price testing app",
+    titleUp: 'Test 10+ price points per product ',
+    titleDown: 'with PricePerfect',
+    subtitle: 'Tired of only being able to A/B test your product prices? Test up to 10 price points and once and efficiently find your optimal price and unlock your maximum revenue with PricePerfect.',
+    btnText: 'Test for free',
     image: HeroImage,
     image1: HeroImage1,
     image2: HeroImage2
@@ -33,8 +36,8 @@ export const aboutData = {
 
 export const benifitData = {
     order: 'BENEFIT WILL YOU GET',
-    title: 'Realtime update about your business',
-    subtitle: 'Lorem ipsum dolor sit amet consectetur. Ligula lorem mi eget tellus id. Magna semper vulputate magna ut est felis. Proin faucibus nec ut duis orci aliquam id ipsum',
+    title: 'Allowing you to find your variants optimal price point.',
+    subtitle: 'Not only does PricePerfect allow you to test core product prices, we also offer the opportunity to test price points on each of your variants. Simply select fixed or custom pricing for each variant and watch as PricePerfect tunes your pricing into perfection.',
     arrowtext: 'Learn More',
     bgimage: BenifitBgImg,
     aniimage: BenifitAniImg,
@@ -47,16 +50,7 @@ export const TrustedmonialData = {
     arrowtext: 'Learn More',
 }
 
-export const ctaData = {
-    titleup: "the sales management dashboard platform which I think is the best I've ever tried. the information displayed is very ",
-    titledown: "valuable with a pleasant user interface to look at",
-}
 
-export const avatarData = {
-    image: avatarImage,
-    name: 'DenjibinPochita',
-    role: 'Founder of Chainshaw corp',
-}
 
 export const featuresData = {
     order: "OUR BEST PLANS FOR YOU",
@@ -65,32 +59,24 @@ export const featuresData = {
 }
 
 export const footerData = {
-    title: "Let's join with millions of sellers in the world",
+    title: "Join thousands of shopify merchants and increase your revenue today.",
     subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
-    btnText: "Try Manageko for 14 days",
+    btnText: "Unlock your hidden revenue today",
     image: FooterImage
 }
 
 export const copyrightData = {
     text: "2022 manageko Inc. Copyright and All rights reserved.",
     subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
-    btnText: "Try Manageko for 14 days",
+    btnText: "Unlock your hidden revenue today",
     image: FooterImage
 }
 
 export const cardData = [
     {
-        title: '4.2m+',
-        description: 'Active Business'
+        title: '30%+',
+        description: 'AOV'
     },
-    {
-        title: '5.1m+',
-        description: 'Downloaded'
-    },
-    {
-        title: '40+',
-        description: 'Big Companies'
-    }
 ]
 
 
@@ -166,43 +152,50 @@ export const featurecardsData = [
 ]
 
 export const navigationData = [
+   
     {
-        name: 'How it works',
+        name: 'Contact Us',
         href: "#"
     },
+   
+]
+
+export const footernavData = [
+   
     {
-        name: 'Features',
-        href: "#"
-    },
-    {
-        name: 'Pricing',
-        href: "#"
-    },
-    {
-        name: 'About Us',
-        href: "#"
-    },
-    {
-        name: 'Blog',
+        name: 'Contact Us',
         href: "#"
     },
 ]
 
-export const footernavData = [
+export const testimonialData = [
     {
-        name: 'Features',
-        href: "#"
+        titleup: "I highly recommend PricePerfect to any Shopify merchant looking to improve their pricing strategy. It's been a game-changer for our business, ",
+        titledown: "and we've seen a significant increase in revenue since using it.",
+        image: avatarImage3,
+        name: 'Thomas Brown',
+        role: 'Founder of Chainshaw corp',
     },
     {
-        name: 'About Us',
-        href: "#"
+        titleup: "PricePerfect has made our pricing strategy more efficient and effective. The app's ability to test multiple price points for each product without the need for creating new links or ads has saved us time ",
+        titledown: " and has resulted in a noticeable improvement in our profits.",
+        image: avatarImage1,
+        name: 'Ethan Davis',
+        role: 'Founder of Chainshaw corp',
     },
+   
     {
-        name: 'Testimonials',
-        href: "#"
-    },
-    {
-        name: 'Download',
-        href: "#"
-    },
+        titleup: "PricePerfect is an essential tool for any e-commerce business looking to optimize their pricing strategy. It's user-friendly and has allowed us ",
+        titledown: "to make data-driven decisions, resulting in better revenue. We highly recommend it!",
+        image: avatarImage2,
+        name: 'Olivia Wilson',
+        role: 'Founder of Chainshaw corp',
+    }
+    
 ]
+
+
+
+
+
+

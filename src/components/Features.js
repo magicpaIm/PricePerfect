@@ -10,9 +10,9 @@ const Features = () => {
             <div className='flex flex-col text-center justify-content items-center '>
                 <p className='description ' >{order}</p>
                 <h1 className='title' data-aos="fade-up" data-aos-delay='300'>{title}</h1>
-                <p className='subtitle mx-auto' data-aos="fade-up" data-aos-delay='600'>{subtitle}</p>
+                {/* <p className='subtitle mx-auto' data-aos="fade-up" data-aos-delay='600'>{subtitle}</p> */}
             </div>
-            <div className='flex flex-col lg:flex-row justify-center gap-10'>
+            {/* <div className='flex flex-col lg:flex-row justify-center gap-10'>
                 {
                     featurecardsData.map((featurecardData, index) => {
                         return (
@@ -20,7 +20,7 @@ const Features = () => {
                         )
                     })
                 }
-            </div>
+            </div> */}
         </div>
     )
 }

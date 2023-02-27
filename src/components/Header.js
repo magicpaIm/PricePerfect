@@ -27,8 +27,7 @@ const Header = () => {
                 <FaBars />
             </div>
             <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
-                <p className="text-blue-600 font-medium cursor-pointer">Login</p>
-                <Button btnText="Get Started" />
+                <Button btnText="Test for free" />
             </div>
         </header>
     )
