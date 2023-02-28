@@ -22,7 +22,7 @@ const Footer = () => {
                         Your browser does not support the video tag.
                     </video> */}
 
-                    <iframe className="float-right w-[380px] lg:w-[1200px] h-[240px] lg:h-[420px] z-0"
+                    <iframe className="mx-auto lg:float-right w-full lg:w-[1200px] h-[240px] lg:h-[420px] z-0"
                         src="https://player.vimeo.com/video/803077578?h=b962ddd0b6" alt="footer" data-aos="zoom-in" data-aos-delay='300'
                         title="payer.vimeo.player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
