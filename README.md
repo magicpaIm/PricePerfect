@@ -1,3 +1,6 @@
+# Price Perfect
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/v-GhY-Y1OyA)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
