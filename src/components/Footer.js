@@ -48,8 +48,9 @@ const Footer = () => {
                         }
                     </div>
 
-                    <div className="w-[99%] justify-center py-2 lg:py-5 mx-auto border-b-2 border-gray-800"></div>
-                    <div className='flex flex-col lg:flex-row justify-between items-center'>
+                    <div className="w-[90%] justify-center py-2 lg:py-5 mx-auto border-b-2 border-gray-800"></div>
+                    <Copyright />
+                    {/* <div className='flex flex-col lg:flex-row justify-between items-center'>
 
                         <img src={logo} className="bg-auto w-fit h-[30px] py-1 lg:py-0" alt='logo'></img>
                         <Copyright />
@@ -68,7 +69,7 @@ const Footer = () => {
                                 </ul>
                             }
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
