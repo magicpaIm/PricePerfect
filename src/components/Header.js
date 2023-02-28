@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
             <a className="text-blue-600 font-medium cursor-pointer" href='#'>Contact Us</a>
-                <Button btnText="Test for free" />
+                <Button btnText="Try for Free" />
             </div>
         </header>
     )

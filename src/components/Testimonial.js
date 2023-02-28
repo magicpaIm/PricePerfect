@@ -14,7 +14,8 @@ const TestimonialComp = ({ testimonialData, index }) => {
             </div>
             <div className="w-[90%] justify-center py-5 mx-auto border-b-4 text-gray-800" data-aos="fade-up" data-aos-delay='600'></div>
             <div className="flex flex-row items-center py-5" data-aos="fade-up" data-aos-delay='700'>
-                <img src={image} className="w-[70px] h-[70px]" alt="avatar" />
+
+                <img src={image} className="w-[70px] h-[70px] rounded-full" alt="avatar" />
                 <div className="items-center px-2">
                     <div className="text-xl lg:text-2xl font-bold py-1">{name}</div>
                     <div className="text-xs lg:text-lg subtitle py-1">{role}</div>
