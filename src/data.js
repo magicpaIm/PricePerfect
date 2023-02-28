@@ -17,7 +17,7 @@ export const heroData = {
     titleUp: 'Test 10+ price points per product ',
     titleDown: 'with PricePerfect',
     subtitle: 'Tired of only being able to A/B test your product prices? Test up to 10 price points and once and efficiently find your optimal price and unlock your maximum revenue with PricePerfect.',
-    btnText: 'Test for free',
+    btnText: 'Try for Free',
     image: HeroImage,
     image1: HeroImage1,
     image2: HeroImage2
@@ -61,19 +61,16 @@ export const footerData = {
     title: "Join thousands of shopify merchants and increase your revenue today.",
     subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
     btnText: "Unlock your hidden revenue today",
-    image: FooterImage
+    image: FooterImage,
 }
 
 export const copyrightData = {
-    text: "2022 manageko Inc. Copyright and All rights reserved.",
-    subtitle: 'Lorem ipsum dolor sit amet consecteur. Blandit tellus non feugiat ut eget maecenas. Dolor massa id vitae aliquam quam semper.',
-    btnText: "Unlock your hidden revenue today",
-    image: FooterImage
+    text: "2022 PricePerfect Inc. Copyright and All rights reserved.",
 }
 
 export const cardData = [
     {
-        title: '30%+',
+        title: '30% +',
         description: 'AOV'
     },
 ]
@@ -169,26 +166,26 @@ export const footernavData = [
 
 export const testimonialData = [
     {
-        titleup: "I highly recommend PricePerfect to any Shopify merchant looking to improve their pricing strategy. It's been a game-changer for our business, ",
-        titledown: "and we've seen a significant increase in revenue since using it.",
+        titleup: "Recommend PricePerfect to improve pricing strategy for Shopify merchants. Our business saw significant",
+        titledown: " revenue growth since using it.",
         image: avatarImage3,
         name: 'Thomas Brown',
-        role: 'Founder of Chainshaw corp',
+        role: '',
     },
     {
-        titleup: "PricePerfect has made our pricing strategy more efficient and effective. The app's ability to test multiple price points for each product without the need for creating new links or ads has saved us time ",
-        titledown: " and has resulted in a noticeable improvement in our profits.",
+        titleup: "PricePerfect streamlined our pricing strategy, testing multiple price points per product without",
+        titledown: " new links/ads. Saw a great increase in profits while saving the team time.",
         image: avatarImage1,
         name: 'Ethan Davis',
-        role: 'Founder of Chainshaw corp',
+        role: '',
     },
    
     {
-        titleup: "PricePerfect is an essential tool for any e-commerce business looking to optimize their pricing strategy. It's user-friendly and has allowed us ",
-        titledown: "to make data-driven decisions, resulting in better revenue. We highly recommend it!",
+        titleup: "PricePerfect is essential for e-commerce pricing optimization. Its user-friendly platform and data-driven ",
+        titledown: "insights lead to better revenue. Highly recommended!",
         image: avatarImage2,
         name: 'Olivia Wilson',
-        role: 'Founder of Chainshaw corp',
+        role: '',
     }
     
 ]

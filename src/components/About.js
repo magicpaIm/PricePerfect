@@ -16,12 +16,12 @@ const About = () => {
                 <div className="flex items-center gap-5 description" data-aos='fade-up' data-aos-delay='500'>
                     {arrowtext} <BsArrowRight />
                 </div>
-                <div className='about-map'>
+                <div className='title'>
                     {
                         cardData.map((item, index) => {
                             return (
                                 <div key={index} data-aos="fade-up" data-aos-delay={index + 1 * 200}>
-                                    <h1 className='title font-medium text-2xl lg:text-5xl'>{item.title}</h1>
+                                    <h1 className='title'>{item.title}</h1>
                                     <p className='subtitle'>{item.description}</p>
                                 </div>
                             )
