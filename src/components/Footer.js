@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <div className='flex flex-col lg:flex-row py-10'>
                     <div className='flex flex-col pb-5 lg:pb-0 lg:pt-20 text-center lg:text-left'>
-                        <h1 className='title text-white text-3xl lg:text-5xl pb-10' data-aos="fade-up" data-aos-delay='200'>{title}</h1>
+                        <h1 className='title text-white lg:text-5xl pb-10' data-aos="fade-up" data-aos-delay='200'>{title}</h1>
                         <Button btnText={btnText} data_aos="fade-up" data_aos_delay='400' />
                     </div>
                     {/* <video className="float-right w-[600px] h-[420px] z-0" alt="footer" data-aos="zoom-in" data-aos-delay='300' controls>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </iframe>
                 </div>
                 <div className="flex flex-col justify-center" data-aos="fade-up" data-aos-delay='500'>
-                    <img src={logo} className="bg-auto mx-auto mb-3 w-fit h-[30px] py-1 lg:py-0" alt='logo'></img>
+                    <img src={logo} className="bg-auto mx-auto mb-3 aspect-[9/2] h-[30px] py-1 lg:py-0" alt='logo'></img>
                     <div className='flex flex-row justify-between gap-5'>
                         {
                             <ul className="lg:flex flex-row justify-center mx-auto">
