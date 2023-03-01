@@ -18,16 +18,22 @@ const Header = () => {
                 <Navbar />
             </div> */}
             {navMobile &&
-                <div  className="bg-gray-300 absolute top-20 left-0 h-54 w-full" data-aos="fade-zoom-in" data-aos-delay='100' data-aos-duration='1200'>
-                    <NavbarMobile />
+                <div className="bg-gray-300 absolute top-20 left-0 h-54 w-full" data-aos="fade-zoom-in" data-aos-delay='100' data-aos-duration='1200'>
+                    {/* <NavbarMobile /> */}
+                    <a href="#" className='hidden lg:block'>
+                        <img src={logo} className="bg-auto w-fit h-[30px] ml-10" alt='logo'></img>
+                    </a>
                 </div>
             }
-            <div onClick={() => { setNavMobile(!navMobile)}}
+            <a href="#" className='lg:hidden cursor-pointer'>
+                <img src={logo} className="bg-auto w-fit h-[30px] " alt='logo'></img>
+            </a>
+            {/* <div onClick={() => { setNavMobile(!navMobile) }}
                 className='lg:hidden text-2xl text-gray-500 mr-2 cursor-pointer'>
                 <FaBars />
-            </div>
+            </div> */}
             <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
-            <a className="text-blue-600 font-medium cursor-pointer" href='#'>Contact Us</a>
+                <a className="text-blue-600 font-medium cursor-pointer" href='#'>Contact Us</a>
                 <Button btnText="Try for Free" />
             </div>
         </header>

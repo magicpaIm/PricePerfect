@@ -6,7 +6,7 @@ import { benifitData, benifitcardData } from '../data'
 const Benifit = () => {
     const { order, title, subtitle, arrowtext, bgimage, aniimage } = benifitData
     return (
-        <div className='about-container pb-20'>
+        <div className='about-container flex-col-reverse lg:flex-row pb-20'>
 
             <div className='container1 about-img' data-aos="zoom-in"  data-aos-delay='50' >
                 <div className='benifitbg mt-16 mr-auto h-[500px] lg:h-[700px] w-[90%] bg-center bg-cover rounded-tr-xl' data-aos="fade-up" data-aos-delay='100'>
