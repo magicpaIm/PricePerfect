@@ -17,21 +17,16 @@ const Footer = () => {
                         <h1 className='title text-white lg:text-5xl pb-10' data-aos="fade-up" data-aos-delay='200'>{title}</h1>
                         <Button btnText={btnText} data_aos="fade-up" data_aos_delay='400' />
                     </div>
-                    {/* <video className="float-right w-[600px] h-[420px] z-0" alt="footer" data-aos="zoom-in" data-aos-delay='300' controls>
-                        
-                        Your browser does not support the video tag.
-                    </video> */}
-
                     <iframe className="mx-auto lg:float-right w-full lg:w-[1200px] h-[240px] lg:h-[420px] z-0"
-                        src="https://player.vimeo.com/video/803077578?h=b962ddd0b6" alt="footer" data-aos="zoom-in" data-aos-delay='300'
+                        src="https://player.vimeo.com/video/803439591?h=b962ddd0b6" alt="footer" data-aos="zoom-in" data-aos-delay='300'
                         title="payer.vimeo.player"
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
                         allowFullScreen >
 
                     </iframe>
                 </div>
-                <div className="flex flex-col justify-center" data-aos="fade-up" data-aos-delay='500'>
-                    <img src={logo} className="bg-auto mx-auto mb-3 aspect-[9/2] h-[30px] py-1 lg:py-0" alt='logo'></img>
+                <div className="flex flex-col justify-center" data-aos="fade-up" data-aos-delay='300'>
+                    <img src={logo} className="bg-auto mx-auto mb-3 aspect-[7/2] lg:aspect-[9/2] h-[30px] py-1 lg:py-0" alt='logo'></img>
                     <div className='flex flex-row justify-between gap-5'>
                         {
                             <ul className="lg:flex flex-row justify-center mx-auto">
@@ -51,7 +46,6 @@ const Footer = () => {
                     <div className="w-[90%] justify-center py-2 lg:py-5 mx-auto border-b-2 border-gray-800"></div>
                     <Copyright />
                     {/* <div className='flex flex-col lg:flex-row justify-between items-center'>
-
                         <img src={logo} className="bg-auto w-fit h-[30px] py-1 lg:py-0" alt='logo'></img>
                         <Copyright />
                         <div className='flex flex-row justify-between gap-5'>
