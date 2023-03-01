@@ -10,7 +10,7 @@ import logo from '../assets/Logo1.png'
 const Header = () => {
     const [navMobile, setNavMobile] = useState(false)
     return (
-        <header className='flex flex-col sm:flex-row items-center justify-center sm:justify-between w-full gap-10 p-5 z-10 relative' data-aos="fade-up" data-aos-delay='100' data-aos-duration='1200'>
+        <header className='flex flex-row items-center justify-between w-full gap-10 p-5 z-10 relative' data-aos="fade-up" data-aos-delay='100' data-aos-duration='1200'>
             <a href="#" className='flex cursor-pointer'>
                 <img src={logo} className="bg-auto aspect-[9/2] h-[30px] lg:ml-10" alt='logo'></img>
             </a>
@@ -26,8 +26,8 @@ const Header = () => {
                 className='lg:hidden text-2xl text-gray-500 mr-2 cursor-pointer'>
                 <FaBars />
             </div> */}
-            <div className="flex flex-row sm:ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
-                <a className="text-blue-600 font-medium cursor-pointer" href='#'>Contact Us</a>
+            <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
+                <a className="text-blue-600 text-xs lg:text-lg font-medium cursor-pointer" href='#'>Contact Us</a>
                 <Button btnText="Try for Free" />
             </div>
         </header>
