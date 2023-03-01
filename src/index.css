@@ -25,7 +25,7 @@
   }
 
   .title {
-    @apply w-full text-3xl lg:text-6xl font-bold text-gray-800 pb-0 lg:pb-2
+    @apply w-full text-xl lg:text-6xl font-bold text-gray-800 pb-0 lg:pb-2
   }
 
   .subtitle {
