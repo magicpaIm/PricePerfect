@@ -4,6 +4,9 @@ Pixel-Perfet and Mobile-Responsive
 
 [![Watch the video](https://i.imgur.com/pdw31P5.png)](https://youtu.be/v-GhY-Y1OyA)
 
+Price is the easiest way to increase your AOV
+
+The average PricePerfect user increases their revenue by 30% with PricePerfect. For years finding the optimal price has been a long and inefficient process, with only A/B testing options available. With PricePerfect you can test up to 10 price points simultaneously and identify your optimal price point in a fraction of the time.
 
 # Getting Started with Create React App
 
