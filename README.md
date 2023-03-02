@@ -1,6 +1,10 @@
 # Price Perfect
 
+Pixel-Perfet and Mobile-Responsive
+
 [![Watch the video](https://i.imgur.com/pdw31P5.png)](https://youtu.be/v-GhY-Y1OyA)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
