@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import Privacy from "./page/Privacy";
+import Contact from "./page/Contact";
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -13,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/privacypolicy",
     element: <Privacy />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 

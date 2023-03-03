@@ -9,16 +9,19 @@ const PrivacyData = () => {
   return (
     <div className="w-full">
       <div className="container1" data-aos="fade-up" data-aos-delay="200">
-        <div className="w-full justify-center items-center md:p-20 p-10">
+        <div className="w-full justify-center items-center md:p-14 p-8">
+          <div className="pb-10">
+            <h4 className="font-bold">Privacy Policy</h4>
+          </div>
           {privacy.map((data, index) => {
             if (index % 2 === 0)
               return (
-                <div className="pt-5 pb-5 md:text-3xl text-xl font-bold">
+                <div className="pt-2 pb-2 font-bold">
                   <pre>{data}</pre>
                 </div>
               );
             return (
-              <div className="pb-10">
+              <div className="pb-10 text-base">
                 <pre>{data}</pre>
               </div>
             );
