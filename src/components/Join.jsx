@@ -1,17 +1,9 @@
 import React from "react";
 
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
-import { footerData, footernavData } from "../data";
-import logo from "../assets/logo-footer.png";
+import { footerData } from "../data";
 import Button from "./Button";
-import Copyright from "./Copyright";
 
-const Footer = () => {
+const Join = () => {
   const { title, subtitle, btnText, image } = footerData;
   return (
     <div className="flex flex-col bg-slate-900  w-full rounded-t-3xl">
@@ -44,4 +36,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Join;

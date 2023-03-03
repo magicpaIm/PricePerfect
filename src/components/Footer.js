@@ -1,14 +1,7 @@
 import React from "react";
 
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTwitter,
-} from "react-icons/fa";
 import { footerData, footernavData } from "../data";
 import logo from "../assets/logo-footer.png";
-import Button from "./Button";
 import Copyright from "./Copyright";
 
 const Footer = () => {

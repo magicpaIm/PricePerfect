@@ -10,12 +10,14 @@ import "aos/dist/aos.css";
 //import components
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import PrivacyData from "../components/PrivacyData";
 
 const Privacy = () => {
   Aos.init();
   return (
     <div className="flex flex-col max-w-xl mx-auto w-full items-center overflow-hidden">
       <Header />
+      {/* <PrivacyData /> */}
       <Footer />
     </div>
   );

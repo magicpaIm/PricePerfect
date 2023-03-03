@@ -26,7 +26,6 @@ const App = () => {
       <Hero />
       <About />
       <Benifit />
-      <Join />
       <Footer />
     </div>
   );
