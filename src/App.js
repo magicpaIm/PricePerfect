@@ -16,6 +16,7 @@ import Trustedmonial from "./components/Trustedmonial";
 import Cta from "./components/Cta";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
+import Join from "./components/Join";
 
 const App = () => {
   Aos.init();
@@ -25,6 +26,7 @@ const App = () => {
       <Hero />
       <About />
       <Benifit />
+      <Join />
       <Footer />
     </div>
   );
