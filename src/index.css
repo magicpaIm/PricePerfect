@@ -4,6 +4,13 @@
 
 
 @layer components {
+  pre {
+    white-space: pre-wrap;
+  }
+
+  * {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  }
   .navbar-menu {
     @apply text-gray-500 font-medium;
   }

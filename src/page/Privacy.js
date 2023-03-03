@@ -17,7 +17,7 @@ const Privacy = () => {
   return (
     <div className="flex flex-col max-w-xl mx-auto w-full items-center overflow-hidden">
       <Header />
-      {/* <PrivacyData /> */}
+      <PrivacyData />
       <Footer />
     </div>
   );
