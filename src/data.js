@@ -159,12 +159,12 @@ export const navigationData = [
 
 export const footernavData = [
   {
-    name: "Privacy Policy",
-    href: "/privacypolicy",
-  },
-  {
     name: "Contact Us",
     href: "#",
+  },
+  {
+    name: "Privacy Policy",
+    href: "/privacypolicy",
   },
 ];
 
