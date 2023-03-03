@@ -38,7 +38,7 @@ const Header = () => {
       <div className="flex flex-row ml-auto items-center gap-2 lg:mr-10 lg:gap-10">
         <a
           className="text-blue-600 text-xs lg:text-lg font-medium cursor-pointer"
-          href="#"
+          href="/contact"
         >
           Contact Us
         </a>
