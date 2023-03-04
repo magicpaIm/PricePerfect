@@ -4,11 +4,13 @@
   "private": true,
   "homepage": ".",
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "emailjs-com": "^3.2.0",
+    "nodemailer": "^6.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.43.3",
