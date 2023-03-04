@@ -31,7 +31,12 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="bg-white dark:bg-gray-900 " style={{ width: "80%" }}>
+      <div
+        className="bg-white dark:bg-gray-900 "
+        style={{ width: "80%" }}
+        data_aos="fade-up"
+        data_aos_delay="400"
+      >
         <div className="py-8 lg:py-16 px-4 mx-auto w-full">
           <h2 className="mb-10 text-2xl font-bold tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
             Contact Us

@@ -1,17 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import { footerData } from "../data";
 import Button from "./Button";
 
 const Join = () => {
   const { title, subtitle, btnText, image } = footerData;
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024); // set breakpoint as needed
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="flex flex-col bg-slate-900  w-full rounded-t-3xl">
       <div className="flex flex-col px-2 lg:px-10">
         <div className="flex flex-col lg:flex-row py-10">
-          <div className="flex flex-col pb-10 lg:pb-0 lg:pt-20 text-center lg:text-left">
+          <div
+            className={`${
+              isMobile ? "text-center" : "text-left"
+            } flex flex-col pb-10 lg:pb-0 lg:pt-20`}
+          >
             <h1
-              className="title text-white lg:text-5xl pb-10"
+              className={`title text-white lg:text-5xl pb-10 ${
+                isMobile ? "text-center" : "text-left"
+              }`}
               data-aos="fade-up"
               data-aos-delay="200"
             >
