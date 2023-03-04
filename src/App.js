@@ -12,9 +12,6 @@ import Hero from "./components/Hero";
 import Header from "./components/Header";
 import About from "./components/About";
 import Benifit from "./components/Benifit";
-import Trustedmonial from "./components/Trustedmonial";
-import Cta from "./components/Cta";
-import Features from "./components/Features";
 import Footer from "./components/Footer";
 import Join from "./components/Join";
 

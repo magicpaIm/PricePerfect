@@ -1,15 +1,15 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-
-// const support = "support@priceperfect.io";
-const support = "zachatatem@gmail.com";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
   const form = useRef();
+
+  const notify = (message) => toast(message);
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    setStatus("Sending...");
     emailjs
       .sendForm(
         "service_839tvkd",
@@ -19,10 +19,13 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          form.current.reset();
+          toast.success("Email sent successfully!"); // Show success toast notification
+          setStatus("Submit");
         },
         (error) => {
-          console.log(error.text);
+          toast.error("There was an error sending the email."); // Show error toast notification
+          setStatus("Submit");
         }
       );
   };
@@ -88,10 +91,14 @@ const ContactForm = () => {
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
-            <button class="bg-blue-500 text-xs lg:text-lg px-1 py-2 lg:px-8 lg:py-3 text-white rounded-lg font-medium w-fit">
+            <button
+              class="bg-blue-500 text-xs lg:text-lg px-1 py-2 lg:px-8 lg:py-3 text-white rounded-lg font-medium w-fit"
+              disabled={status === "Sending..."}
+            >
               {status}
             </button>
           </form>
+          <ToastContainer />
         </div>
       </div>
     </>
