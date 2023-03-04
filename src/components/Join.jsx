@@ -9,7 +9,7 @@ const Join = () => {
     <div className="flex flex-col bg-slate-900  w-full rounded-t-3xl">
       <div className="flex flex-col px-2 lg:px-10">
         <div className="flex flex-col lg:flex-row py-10">
-          <div className="flex flex-col pb-5 lg:pb-0 lg:pt-20 text-center lg:text-left">
+          <div className="flex flex-col pb-10 lg:pb-0 lg:pt-20 text-center lg:text-left">
             <h1
               className="title text-white lg:text-5xl pb-10"
               data-aos="fade-up"
