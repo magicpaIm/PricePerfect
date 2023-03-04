@@ -6,7 +6,6 @@ const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
   const form = useRef();
 
-  const notify = (message) => toast(message);
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus("Sending...");

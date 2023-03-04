@@ -21,7 +21,7 @@ const Footer = () => {
           ></img>
           <div className="flex flex-row justify-center">
             {
-              <ul className="lg:flex flex-col justify-center mx-auto items-center">
+              <ul className="flex flex-col justify-center mx-auto items-center">
                 {footernavData.map((item, index) => {
                   return (
                     <li key={index}>
